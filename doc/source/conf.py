@@ -55,9 +55,7 @@ master_doc = 'index'
 
 # General information about the project.
 repository_name = "openstack/openstack-manuals"
-bug_project = 'openstack-manuals'
-project = u'Architecture Design Guide'
-bug_tag = u'arch-design'
+use_storyboard = True
 copyright = u'2015-2018, OpenStack contributors'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -155,7 +153,7 @@ html_theme_options = {
 # So that we can enable "log-a-bug" links from each output HTML page, this
 # variable must be set to a format that includes year, month, day, hours and
 # minutes.
-html_last_updated_fmt = '%Y-%m-%d %H:%M'
+# html_last_updated_fmt = '%Y-%m-%d %H:%M'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
