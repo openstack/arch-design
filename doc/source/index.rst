@@ -35,8 +35,8 @@ Before reading this book, we recommend:
 * A basic understanding of networking principles and protocols.
 
 For information about deploying and operating OpenStack, see the
-`Installation Guides <https://docs.openstack.org/ocata/install/>`_,
-`Deployment Guides <https://docs.openstack.org/ocata/deploy/>`_,
+`Installation Guides <https://docs.openstack.org/rocky/install/>`_,
+`Deployment Guides <https://docs.openstack.org/rocky/deploy/>`_,
 and the `OpenStack Operations Guide <https://docs.openstack.org/operations-guide/>`_.
 
 Contents

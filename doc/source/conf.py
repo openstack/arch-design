@@ -54,7 +54,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-repository_name = "openstack/openstack-manuals"
+repository_name = "openstack/arch-design"
 use_storyboard = True
 copyright = u'2015-2018, OpenStack contributors'
 
@@ -206,25 +206,6 @@ latex_custom_template = r"""
 \newcommand{\openstacklogo}{%s}
 \usepackage{%s}
 """ % (openstack_logo, pdf_theme_path)
-
-latex_engine = 'xelatex'
-
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    'papersize': 'a4paper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '11pt',
-    
-    #Default figure align
-    'figure_align': 'H',
-
-    # Not to generate blank page after chapter
-    'classoptions': ',openany',
-
-    # Additional stuff for the LaTeX preamble.
-    'preamble': latex_custom_template,
-}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
