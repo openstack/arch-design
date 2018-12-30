@@ -5,7 +5,7 @@ OpenStack Architecture Design Guide
 This repository contains the source files for the OpenStack Architecture Guide.
 
 You can read this guide at `docs.openstack.org/arch-design
-<http://docs.openstack.org/arch-design>`_.
+<https://docs.openstack.org/arch-design>`_.
 
 Prerequisites
 -------------
