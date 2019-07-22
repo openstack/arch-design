@@ -276,7 +276,7 @@ Extensions
 ~~~~~~~~~~
 
 The `API
-Specifications <https://developer.openstack.org/api-guide/quick-start/index.html>`_ define
+Specifications <https://docs.openstack.org/api-quick-start/index.html>`_ define
 the core actions, capabilities, and mediatypes of the OpenStack API. A
 client can always depend on the availability of this core API, and
 implementers are always required to support it in its entirety.
