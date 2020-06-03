@@ -807,7 +807,7 @@ C
       compression for things such as Object Storage objects or Image service
       VM images.
 
-   Compute API (Nova API)
+   Compute API (nova API)
 
       The nova-api daemon provides access to nova services. Can communicate with
       other APIs, such as the Amazon EC2 API.
@@ -2547,7 +2547,7 @@ N
 
    neutron
 
-      Codename for OpenStack :term:`Networking service <Networking Service
+      Codename for OpenStack :term:`Networking service <Networking service
       (neutron)>`.
 
    neutron API
@@ -3739,7 +3739,7 @@ T
    tacker
 
       Code name for the :term:`NFV Orchestration service <NFV Orchestration
-      service (tacker)>`
+      Service (tacker)>`
 
    Telemetry service (telemetry)
 

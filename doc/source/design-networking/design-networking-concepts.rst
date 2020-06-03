@@ -185,7 +185,8 @@ architecture include:
 * There are a variety of well tested tools, such as Internet Control Message
   Protocol (ICMP) to monitor and manage traffic.
 
-* Layer-3 architectures enable the use of :term:`quality of service (QoS)` to
+* Layer-3 architectures enable the use of :term:`quality of service
+  (QoS) <Quality of Service (QoS)>` to
   manage network performance.
 
 Layer-3 architecture limitations

@@ -54,8 +54,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-repository_name = "openstack/arch-design"
-use_storyboard = True
+openstackdocs_repo_name = "openstack/arch-design"
+openstackdocs_use_storyboard = True
 copyright = u'2015-2018, OpenStack contributors'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -97,7 +97,7 @@ exclude_patterns = ['common/cli*', 'common/nova*', 'common/get-started-*']
 # show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'native'
 
 # A list of ignored prefixes for module index sorting.
 # modindex_common_prefix = []
