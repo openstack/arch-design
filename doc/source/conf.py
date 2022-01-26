@@ -56,7 +56,7 @@ master_doc = 'index'
 # General information about the project.
 openstackdocs_repo_name = "openstack/arch-design"
 openstackdocs_use_storyboard = True
-copyright = u'2015-2018, OpenStack contributors'
+copyright = '2015-2018, OpenStack contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -211,8 +211,8 @@ latex_custom_template = r"""
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', 'ArchDesign.tex', u'Architecture Design Guide',
-     u'OpenStack contributors', 'manual'),
+    ('index', 'ArchDesign.tex', 'Architecture Design Guide',
+     'OpenStack contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -241,8 +241,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'ArchDesign', u'Architecture Design Guide',
-     [u'OpenStack contributors'], 1)
+    ('index', 'ArchDesign', 'Architecture Design Guide',
+     ['OpenStack contributors'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -255,8 +255,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'ArchDesign', u'Architecture Design Guide',
-     u'OpenStack contributors', 'ArchDesign',
+    ('index', 'ArchDesign', 'Architecture Design Guide',
+     'OpenStack contributors', 'ArchDesign',
      'To reap the benefits of OpenStack, you should plan, design,'
      'and architect your cloud properly, taking user needs into'
      'account and understanding the use cases.'
@@ -281,6 +281,6 @@ locale_dirs = ['locale/']
 # -- Options for PDF output --------------------------------------------------
 
 pdf_documents = [
-    ('index', u'ArchDesignGuide', u'Architecture Design Guide',
-     u'OpenStack contributors')
+    ('index', 'ArchDesignGuide', 'Architecture Design Guide',
+     'OpenStack contributors')
 ]
