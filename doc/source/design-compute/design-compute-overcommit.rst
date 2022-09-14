@@ -10,6 +10,13 @@ following ratios by default:
 * CPU allocation ratio: 16:1
 * RAM allocation ratio: 1.5:1
 
+.. caution::
+
+   Using a RAM allocation ratio above 1:1 can impact running VMs if all
+   available memory on the hypervisor is used. If sufficient swap space is not
+   available the system will have to rely on OOM killer to free space which can
+   have a detrimental effect on running VMs.
+
 The default CPU allocation ratio of 16:1 means that the scheduler
 allocates up to 16 virtual cores per physical core. For example, if a
 physical node has 12 cores, the scheduler sees 192 available virtual
