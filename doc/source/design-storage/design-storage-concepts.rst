@@ -38,7 +38,7 @@ You should consider using the OpenStack Object Storage service if you eventually
 plan on distributing your storage cluster across multiple data centers, if you
 need unified accounts for your users for both compute and object storage, or if
 you want to control your object storage with the OpenStack Dashboard. For more
-information, see the `Swift project page <https://www.openstack.org/software/releases/ocata/components/swift>`_.
+information, see the `Swift project page <https://www.openstack.org/software/releases/dalmatian/components/swift>`_.
 
 Block storage
 ~~~~~~~~~~~~~
@@ -156,7 +156,7 @@ storage types.
    * - Encryption configuration
      - Parameter in ``nova.conf``
      - Admin establishing `encrypted volume type
-       <https://docs.openstack.org/admin-guide/dashboard-manage-volumes.html>`_,
+       <https://docs.openstack.org/horizon/latest/admin/manage-volumes.html>`_,
        then user selecting encrypted volume
      - Not yet available
      - Shared File Systems service does not apply any additional encryption
@@ -169,7 +169,7 @@ storage types.
        a share was being created. In case of thin provisioning it can be
        partial space reservation (for more details see
        `Capabilities and Extra-Specs
-       <https://docs.openstack.org/manila/latest/contributor/capabilities_and_extra_specs.html#common-capabilities>`_
+       <https://docs.openstack.org/manila/latest/admin/capabilities_and_extra_specs.html#common-capabilities>`_
        specification)
 
 .. note::
@@ -293,7 +293,7 @@ traditional network components, and a simpler configuration and setup process.
 
 For more information on configuring Block Storage to use NFS storage, see
 `Configure an NFS storage back end
-<https://docs.openstack.org/admin-guide/blockstorage-nfs-backend.html>`_ in the
+<https://docs.openstack.org/cinder/latest/admin/nfs-backend.html>`_ in the
 OpenStack Administrator Guide.
 
 Sheepdog
