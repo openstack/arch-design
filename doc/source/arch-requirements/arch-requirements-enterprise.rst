@@ -209,7 +209,7 @@ provider.
   Examples of some common methods are active-hot-standby, active-passive,
   and active-active.
   Development of high availability and test frameworks is necessary to
-  insure understanding of functionality and limitations.
+  ensure understanding of functionality and limitations.
 * Consider the security of data between the client and the endpoint,
   and of traffic that traverses the multiple clouds.
 
